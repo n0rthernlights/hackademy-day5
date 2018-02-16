@@ -11,3 +11,10 @@ def remove_duplicates(a_list):
         else:
             b_list.append(i)
     return b_list
+
+def square_numbers(a_list):
+    b_list = []
+    for i in a_list: 
+        a = i * i
+        b_list.append(a)
+    return b_list
